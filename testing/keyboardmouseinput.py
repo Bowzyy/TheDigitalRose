@@ -2,7 +2,7 @@ from pynput import keyboard
 from pynput import mouse
 
 # file to log too love logs
-LOG_FILE = "testing/input_log.txt"
+LOG_FILE = "input_log.txt"
 
 # clear txt file (testing)
 with open(LOG_FILE, "w") as f:
